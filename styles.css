@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background: linear-gradient(
+    120deg,
+    rgb(121, 167, 209),
+    rgb(54, 75, 163),
+    rgb(23, 14, 76)
+  );
+  color: #fff;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1,
+h2 {
+  font-size: 3rem;
+  padding: 20px;
+}
+#increment-btn {
+  margin-bottom: 5px;
+  background-color: rgb(218, 47, 224);
+  color: #ffffff;
+  border: 3px solid black;
+  width: 185px;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#increment-btn:hover {
+  color: #000000;
+  background-color: rgb(220, 175, 232);
+}
+#save-btn {
+  background-color: rgb(9, 152, 31);
+  color: #ffffff;
+  border: 3px solid black;
+  width: 185px;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#save-btn:hover {
+  color: #000000;
+  background-color: rgb(181, 219, 186);
+}
+#save-el {
+  margin-top: 10px;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
